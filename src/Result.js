@@ -7,7 +7,7 @@ function Result({secretNum, term}){
         result = 'lower';
     }else if(term > secretNum){
         result = 'Hiegher';
-    }else if(term == secretNum){
+    }else if(term === secretNum){
         result = 'Congratulation! you found correct Number.';
     }else{
         result='Enter valid number'
