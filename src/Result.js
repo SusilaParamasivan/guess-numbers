@@ -2,11 +2,12 @@ import React from "react";
 
 function Result({secretNum, term}){
    let result;
+   term = Math.floor(term);
    if(term){
     if(term < secretNum){
         result = 'lower';
     }else if(term > secretNum){
-        result = 'Hiegher';
+        result = 'Higher';
     }else if(term === secretNum){
         result = 'Congratulation! you found correct Number.';
     }else{
