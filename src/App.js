@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+ import './App.css';
 import { useState } from 'react';
 import Result from './Result';
 const secretNum = Math.floor(Math.random() * 10) + 1;
